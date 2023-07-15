@@ -9,4 +9,3 @@ class IndexView(TemplateView):
           context  = super().get_context_data(**kwargs)
           context["name"] = "ali"
           return context
-class 
